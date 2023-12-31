@@ -1,0 +1,25 @@
+body {
+  background-color: #202447;
+  color: white;
+}
+nav {
+  background-color: #202447;
+}
+nav .nav-link,
+nav .navbar-brand,
+nav .nav-link:visited {
+  color: white;
+}
+nav .nav-link:hover {
+  color: rgb(219, 219, 219);
+}
+.full-height {
+  height: 100vh !important;
+}
+i {
+  color: white !important;
+}
+.navbar-toggler {
+  border: 2px solid rgba(255, 255, 255, 0.219);
+  box-shadow: none !important;
+}
