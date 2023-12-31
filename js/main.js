@@ -93,7 +93,7 @@ function clearFields() {
 window.addEventListener("", function () {
   console.log(window.location.href);
   console.log(loggedIn);
-  if (window.location.href == "http://127.0.0.1:5500/welcome.html") {
+  if (window.location.href == "../welcome.html") {
     if (loggedIn === false) console.log(loggedIn);
   }
 });
