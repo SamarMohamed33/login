@@ -68,7 +68,7 @@ function signIn() {
     }
     if (found) {
       loggedIn = true;
-      window.location.href = "/welcome.html";
+      window.location.href = "welcome.html";
     } else {
       showError(signinMessage, " The email or password is wrong.");
     }
